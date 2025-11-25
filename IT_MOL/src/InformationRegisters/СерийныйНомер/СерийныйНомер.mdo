@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65a02f93-4f32-403d-83e2-3ba84608eaa6">
+  <producedTypes>
+    <selectionType typeId="75338677-987b-4ea6-9169-1627a0efa3e1" valueTypeId="cd52c987-4591-4577-ab06-414817b81c43"/>
+    <listType typeId="0092901c-f12a-4301-ae29-6456e9c617a5" valueTypeId="f9ea9f0a-f133-4a3f-accb-c7f21d65c109"/>
+    <managerType typeId="ea4be29c-a7a2-411a-86d0-f8cf5c9cb788" valueTypeId="d41597d8-3d9c-46c7-8075-eec8ee0ef3f3"/>
+    <recordSetType typeId="c740a9e3-7e87-4a2f-ad33-4913412e6ea4" valueTypeId="3b68de57-dcde-4c22-8be3-26c090148188"/>
+    <recordKeyType typeId="b860fb1f-0f27-42bf-9e3e-94baafb327a8" valueTypeId="4599d8b1-4e3a-4ebe-8615-22f192b833e1"/>
+    <recordType typeId="bae150c0-7e97-4b46-bddf-a5989a393119" valueTypeId="125faa92-97b8-43fd-8f2f-8f9dfd56caab"/>
+    <recordManagerType typeId="cc901908-08c8-4f63-86c5-6d51b6c0e98a" valueTypeId="8c6dbf04-7d41-457c-b87c-9b9b14d4740f"/>
+  </producedTypes>
+  <name>СерийныйНомер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серийный номер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="be855184-3030-4e56-bdf7-ab684f23ac9e">
+    <name>МодельОборудования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель оборудования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МодельОборудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="60d1cb81-2bb2-451f-87e3-60b7d549d409">
+    <name>СерийныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="56e84046-2c6b-4614-9fef-34a4c6dd2f53">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b2108636-77a3-4e0c-a454-cfae98430f6a">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

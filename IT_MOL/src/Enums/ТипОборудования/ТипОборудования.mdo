@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7e579e0-cc8e-47d1-b309-db4fe72d2efe">
+  <producedTypes>
+    <refType typeId="1757515b-8b27-4ddb-bd45-709b08b4fc6a" valueTypeId="0f134fcd-146e-4497-8856-e55a058d0b8e"/>
+    <listType typeId="79f54eb5-5743-459d-afc6-37eeec91bc21" valueTypeId="6a773f0a-119a-4ad0-8cd0-8af735622e5d"/>
+    <managerType typeId="678835bb-8a54-4d66-a57b-441496ee8907" valueTypeId="5a0a2c42-6435-4dc7-8642-288be8106def"/>
+  </producedTypes>
+  <name>ТипОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип оборудования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="473d2caa-cea9-4353-a2bd-6f723bca171d">
+    <name>Моноблок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Моноблок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab5a2044-3c47-46ea-a263-4e713e81af15">
+    <name>Клавиатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клавиатура</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84bd8854-d5d7-4ee3-8145-d812b591e1df">
+    <name>Мышь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мышь</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
