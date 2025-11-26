@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Поступление</content>
+  <content>Document.ПрисвоитьИнвНомер</content>
 </mdclass:Subsystem>

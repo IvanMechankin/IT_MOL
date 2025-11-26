@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e831e24-5860-4062-a785-a8061acbf141">
+  <producedTypes>
+    <objectType typeId="6386c232-fd34-4d0c-b390-fcab0c0080dc" valueTypeId="94013c14-2539-4d07-a3cf-4f781f2e402c"/>
+    <refType typeId="01ceedc8-9d96-42ef-b4ab-ad1f511cd7dc" valueTypeId="ca5e5746-5d00-47ea-9cfe-83c573d39d95"/>
+    <selectionType typeId="7aa9507a-4898-4a38-b0b2-f26044888e39" valueTypeId="3631a388-3110-40da-bb2b-5cbe8e74b098"/>
+    <listType typeId="f03867a7-134b-410a-926a-1fa2bf113601" valueTypeId="72430345-7313-45c0-96f1-54c9eedbe2da"/>
+    <managerType typeId="c2c9b38b-a0c4-4225-9d32-2d9962a68331" valueTypeId="25118438-9dcb-4945-b8ad-3256809ba7c3"/>
+  </producedTypes>
+  <name>ПрисвоитьИнвНомер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присвоить инвентарный номер</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПрисвоитьИнвНомер.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПрисвоитьИнвНомер.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.СерийныеНомера</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="89878c01-761d-4ff6-9402-c0be4ae11652">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МодельОборудования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5cef68d5-baaa-475b-9209-cb9205f650e0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c662ba1d-cf7d-4ac7-961e-6307d50883ac">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9a08a194-ef73-49f8-8dd6-0e3c4e385fd6">
+    <producedTypes>
+      <objectType typeId="ada51d09-c7e0-4abc-97d0-9b5a37025f63" valueTypeId="cd101d90-1761-4a2f-98e2-f6dbd2ebfdde"/>
+      <rowType typeId="89affcf4-3a3d-432e-b620-1b6193dda45e" valueTypeId="def126f7-af1a-4d20-8a94-554238f2ea23"/>
+    </producedTypes>
+    <name>СерийныеНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийные номера</value>
+    </synonym>
+    <attributes uuid="7fb2b94a-125e-41f1-948c-dafd863afce9">
+      <name>СерийныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3b821166-84a8-49c0-89ea-7964dae2a634">
+      <name>ИнвентарныйНомер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Инвентарный номер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

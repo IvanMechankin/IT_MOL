@@ -31,7 +31,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <registerRecords>InformationRegister.СерийныйНомер</registerRecords>
+  <registerRecords>InformationRegister.СерийныеНомера</registerRecords>
   <registerRecords>AccumulationRegister.ОстатокМЦ</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
