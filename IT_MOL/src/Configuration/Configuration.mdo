@@ -42,7 +42,8 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Производитель</catalogs>
   <documents>Document.Поступление</documents>
+  <documents>Document.ПрисвоитьИнвНомер</documents>
   <enums>Enum.ТипОборудования</enums>
-  <informationRegisters>InformationRegister.СерийныйНомер</informationRegisters>
+  <informationRegisters>InformationRegister.СерийныеНомера</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстатокМЦ</accumulationRegisters>
 </mdclass:Configuration>

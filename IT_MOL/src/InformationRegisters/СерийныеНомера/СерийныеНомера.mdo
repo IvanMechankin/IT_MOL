@@ -9,10 +9,10 @@
     <recordType typeId="bae150c0-7e97-4b46-bddf-a5989a393119" valueTypeId="125faa92-97b8-43fd-8f2f-8f9dfd56caab"/>
     <recordManagerType typeId="cc901908-08c8-4f63-86c5-6d51b6c0e98a" valueTypeId="8c6dbf04-7d41-457c-b87c-9b9b14d4740f"/>
   </producedTypes>
-  <name>СерийныйНомер</name>
+  <name>СерийныеНомера</name>
   <synonym>
     <key>ru</key>
-    <value>Серийный номер</value>
+    <value>Серийные номера</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
@@ -64,16 +64,14 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>25</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="b2108636-77a3-4e0c-a454-cfae98430f6a">
